@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ruby cron_entry_test.rb
