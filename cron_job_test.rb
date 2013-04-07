@@ -6,18 +6,6 @@ class CronJobTest < Test::Unit::TestCase
     cron_job = CronJob.new('*/1  * * * 1-3,5-13')
     assert_equal 5, cron_job.parse.length
   end
-
-  def test_num()
-  end
-
-  def test_star()
-  end
-
-  def test_star_over_num()
-  end
-
-  def test_num_dash_num()
-  end
 end
 
 class CronEntryPatternTest < Test::Unit::TestCase

@@ -5,7 +5,7 @@ class CronJob
   end
 
   def parse
-    @raw_entry.split(/\s+/)
+    @raw_entry.split(/\s+/).split(',')
   end
 
   def next_time
